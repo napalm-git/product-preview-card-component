@@ -11,4 +11,22 @@ body {
   height: 100vh;
   font-family: "Montserrat", sans-serif;
   background-color: hsl(30, 38%, 92%);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 530px;
+  width: 706px;
+}
+.wrapper .product-image {
+  height: 100%;
+}
+.wrapper .product-image img {
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }/*# sourceMappingURL=main.css.map */

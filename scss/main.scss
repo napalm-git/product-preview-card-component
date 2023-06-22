@@ -15,3 +15,23 @@ body {
   font-family: $ff-primary;
   background-color: $color-bg;
 }
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 530px;
+  width: 706px;
+
+  & .product-image {
+    height: 100%;
+
+    & img {
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  }
+}
