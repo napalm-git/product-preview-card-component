@@ -62,5 +62,23 @@ body {
       font-weight: $fw-normal;
       padding-right: 0.9375rem;
     }
+
+    & .product-price {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+
+      & p {
+        font-size: $fs-h;
+        font-family: $ff-secondary;
+        color: $color-primary;
+        font-weight: $fw-bold;
+      }
+
+      & span {
+        text-decoration: line-through;
+      }
+    }
   }
 }
