@@ -103,6 +103,10 @@ body {
     &:hover {
       background-color: $color-hover;
     }
+
+    &:active {
+      background-color: $color-hover;
+    }
   }
 }
 

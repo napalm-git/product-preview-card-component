@@ -92,6 +92,9 @@ body {
 .wrapper button:hover {
   background-color: hsl(212, 21%, 14%);
 }
+.wrapper button:active {
+  background-color: hsl(212, 21%, 14%);
+}
 
 @media (max-width: 690px) {
   body {
