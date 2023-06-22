@@ -31,5 +31,62 @@ body {
   border-bottom-left-radius: 10px;
 }
 .wrapper .product-info {
-  padding: 1875rem;
+  padding: 1.875rem;
+  background-color: hsl(0, 0%, 100%);
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.wrapper .product-info span {
+  color: hsl(228, 12%, 48%);
+}
+.wrapper .product-info h1 {
+  margin-top: 1.25rem;
+  font-size: 2.375rem;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  padding-right: 5px;
+}
+.wrapper .product-info .text {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  padding-right: 0.9375rem;
+}
+.wrapper .product-info .product-price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.wrapper .product-info .product-price p {
+  font-size: 2.375rem;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+}
+.wrapper .product-info .product-price span {
+  text-decoration: line-through;
+}
+.wrapper button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1.625rem;
+  height: 58px;
+  width: 100%;
+  text-align: center;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+.wrapper button:hover {
+  background-color: hsl(212, 21%, 14%);
 }/*# sourceMappingURL=main.css.map */
